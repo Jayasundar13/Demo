@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="7.201377">
+<testcase classname="Verifying the Adactin functionalities" name="Verifying Adactin login details with RoomType" time="2.784457">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00539563+2725219]&#10;&#9;Ordinal0 [0x00438551+1672529]&#10;&#9;Ordinal0 [0x00320359+525145]&#10;&#9;Ordinal0 [0x002B0B77+68471]&#10;&#9;Ordinal0 [0x002AD32C+54060]&#10;&#9;Ordinal0 [0x002CCC37+183351]&#10;&#9;Ordinal0 [0x002CCA3D+182845]&#10;&#9;Ordinal0 [0x002CA94B+174411]&#10;&#9;Ordinal0 [0x002B2528+75048]&#10;&#9;Ordinal0 [0x002B35A0+79264]&#10;&#9;Ordinal0 [0x002B3539+79161]&#10;&#9;Ordinal0 [0x0044D607+1758727]&#10;&#9;GetHandleVerifier [0x00656546+1050150]&#10;&#9;GetHandleVerifier [0x00656291+1049457]&#10;&#9;GetHandleVerifier [0x006610D7+1094071]&#10;&#9;GetHandleVerifier [0x00656B46+1051686]&#10;&#9;Ordinal0 [0x00445B06+1727238]&#10;&#9;Ordinal0 [0x0044EB7B+1764219]&#10;&#9;Ordinal0 [0x0044ECE3+1764579]&#10;&#9;Ordinal0 [0x00464C05+1854469]&#10;&#9;BaseThreadInitThunk [0x74868744+36]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58ED+253]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58BD+205]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at org.base.LibGlobal.getDriver(LibGlobal.java:23)&#13;&#10;&#9;at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)&#13;&#10;&#9;at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)&#13;&#10;"><![CDATA[Given User is on the Adactin page with RoomType.............................failed
+When User login using with RoomType"jayasundar13" and "Mugunth13@"..........skipped
+And User should search using with RoomType"Melbourne" , "Hotel Sunshine" , "Standard" ,	"1" , "24/08/2020" , "25/08/2020" , "1" and "1".skipped
+And User should select hotel with RoomType..................................skipped
+And User should book hotel using with RoomType"Mugunthan" , "Balachandran" , "chennai" ,"1234567891234567" , "VISA" , "April" , "2020" and "2222".skipped
+And User should print the id with RoomType"value"...........................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00539563+2725219]
+	Ordinal0 [0x00438551+1672529]
+	Ordinal0 [0x00320359+525145]
+	Ordinal0 [0x002B0B77+68471]
+	Ordinal0 [0x002AD32C+54060]
+	Ordinal0 [0x002CCC37+183351]
+	Ordinal0 [0x002CCA3D+182845]
+	Ordinal0 [0x002CA94B+174411]
+	Ordinal0 [0x002B2528+75048]
+	Ordinal0 [0x002B35A0+79264]
+	Ordinal0 [0x002B3539+79161]
+	Ordinal0 [0x0044D607+1758727]
+	GetHandleVerifier [0x00656546+1050150]
+	GetHandleVerifier [0x00656291+1049457]
+	GetHandleVerifier [0x006610D7+1094071]
+	GetHandleVerifier [0x00656B46+1051686]
+	Ordinal0 [0x00445B06+1727238]
+	Ordinal0 [0x0044EB7B+1764219]
+	Ordinal0 [0x0044ECE3+1764579]
+	Ordinal0 [0x00464C05+1854469]
+	BaseThreadInitThunk [0x74868744+36]
+	RtlGetAppContainerNamedObjectPath [0x771B58ED+253]
+	RtlGetAppContainerNamedObjectPath [0x771B58BD+205]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at org.base.LibGlobal.getDriver(LibGlobal.java:23)
+	at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)
+	at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Verifying the Adactin functionalities" name="Verifying Adactin login details with RoomType 2" time="1.403649">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00539563+2725219]&#10;&#9;Ordinal0 [0x00438551+1672529]&#10;&#9;Ordinal0 [0x00320359+525145]&#10;&#9;Ordinal0 [0x002B0B77+68471]&#10;&#9;Ordinal0 [0x002AD32C+54060]&#10;&#9;Ordinal0 [0x002CCC37+183351]&#10;&#9;Ordinal0 [0x002CCA3D+182845]&#10;&#9;Ordinal0 [0x002CA94B+174411]&#10;&#9;Ordinal0 [0x002B2528+75048]&#10;&#9;Ordinal0 [0x002B35A0+79264]&#10;&#9;Ordinal0 [0x002B3539+79161]&#10;&#9;Ordinal0 [0x0044D607+1758727]&#10;&#9;GetHandleVerifier [0x00656546+1050150]&#10;&#9;GetHandleVerifier [0x00656291+1049457]&#10;&#9;GetHandleVerifier [0x006610D7+1094071]&#10;&#9;GetHandleVerifier [0x00656B46+1051686]&#10;&#9;Ordinal0 [0x00445B06+1727238]&#10;&#9;Ordinal0 [0x0044EB7B+1764219]&#10;&#9;Ordinal0 [0x0044ECE3+1764579]&#10;&#9;Ordinal0 [0x00464C05+1854469]&#10;&#9;BaseThreadInitThunk [0x74868744+36]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58ED+253]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58BD+205]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at org.base.LibGlobal.getDriver(LibGlobal.java:23)&#13;&#10;&#9;at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)&#13;&#10;&#9;at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)&#13;&#10;"><![CDATA[Given User is on the Adactin page with RoomType.............................failed
+When User login using with RoomType"jayasundar13" and "Mugunth13@"..........skipped
+And User should search using with RoomType"Melbourne" , "Hotel Sunshine" , "Double" ,	"1" , "24/08/2020" , "25/08/2020" , "1" and "1".skipped
+And User should select hotel with RoomType..................................skipped
+And User should book hotel using with RoomType"Mugunthan" , "Balachandran" , "chennai" ,"1234567891234567" , "VISA" , "April" , "2020" and "2222".skipped
+And User should print the id with RoomType"value"...........................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00539563+2725219]
+	Ordinal0 [0x00438551+1672529]
+	Ordinal0 [0x00320359+525145]
+	Ordinal0 [0x002B0B77+68471]
+	Ordinal0 [0x002AD32C+54060]
+	Ordinal0 [0x002CCC37+183351]
+	Ordinal0 [0x002CCA3D+182845]
+	Ordinal0 [0x002CA94B+174411]
+	Ordinal0 [0x002B2528+75048]
+	Ordinal0 [0x002B35A0+79264]
+	Ordinal0 [0x002B3539+79161]
+	Ordinal0 [0x0044D607+1758727]
+	GetHandleVerifier [0x00656546+1050150]
+	GetHandleVerifier [0x00656291+1049457]
+	GetHandleVerifier [0x006610D7+1094071]
+	GetHandleVerifier [0x00656B46+1051686]
+	Ordinal0 [0x00445B06+1727238]
+	Ordinal0 [0x0044EB7B+1764219]
+	Ordinal0 [0x0044ECE3+1764579]
+	Ordinal0 [0x00464C05+1854469]
+	BaseThreadInitThunk [0x74868744+36]
+	RtlGetAppContainerNamedObjectPath [0x771B58ED+253]
+	RtlGetAppContainerNamedObjectPath [0x771B58BD+205]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at org.base.LibGlobal.getDriver(LibGlobal.java:23)
+	at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)
+	at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Verifying the Adactin functionalities" name="Verifying Adactin login details with RoomType 3" time="1.5487">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00539563+2725219]&#10;&#9;Ordinal0 [0x00438551+1672529]&#10;&#9;Ordinal0 [0x00320359+525145]&#10;&#9;Ordinal0 [0x002B0B77+68471]&#10;&#9;Ordinal0 [0x002AD32C+54060]&#10;&#9;Ordinal0 [0x002CCC37+183351]&#10;&#9;Ordinal0 [0x002CCA3D+182845]&#10;&#9;Ordinal0 [0x002CA94B+174411]&#10;&#9;Ordinal0 [0x002B2528+75048]&#10;&#9;Ordinal0 [0x002B35A0+79264]&#10;&#9;Ordinal0 [0x002B3539+79161]&#10;&#9;Ordinal0 [0x0044D607+1758727]&#10;&#9;GetHandleVerifier [0x00656546+1050150]&#10;&#9;GetHandleVerifier [0x00656291+1049457]&#10;&#9;GetHandleVerifier [0x006610D7+1094071]&#10;&#9;GetHandleVerifier [0x00656B46+1051686]&#10;&#9;Ordinal0 [0x00445B06+1727238]&#10;&#9;Ordinal0 [0x0044EB7B+1764219]&#10;&#9;Ordinal0 [0x0044ECE3+1764579]&#10;&#9;Ordinal0 [0x00464C05+1854469]&#10;&#9;BaseThreadInitThunk [0x74868744+36]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58ED+253]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58BD+205]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at org.base.LibGlobal.getDriver(LibGlobal.java:23)&#13;&#10;&#9;at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)&#13;&#10;&#9;at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)&#13;&#10;"><![CDATA[Given User is on the Adactin page with RoomType.............................failed
+When User login using with RoomType"jayasundar13" and "Mugunth13@"..........skipped
+And User should search using with RoomType"Melbourne" , "Hotel Sunshine" , "Deluxe" ,	"1" , "24/08/2020" , "25/08/2020" , "1" and "1".skipped
+And User should select hotel with RoomType..................................skipped
+And User should book hotel using with RoomType"Mugunthan" , "Balachandran" , "chennai" ,"1234567891234567" , "VISA" , "April" , "2020" and "2222".skipped
+And User should print the id with RoomType"value"...........................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00539563+2725219]
+	Ordinal0 [0x00438551+1672529]
+	Ordinal0 [0x00320359+525145]
+	Ordinal0 [0x002B0B77+68471]
+	Ordinal0 [0x002AD32C+54060]
+	Ordinal0 [0x002CCC37+183351]
+	Ordinal0 [0x002CCA3D+182845]
+	Ordinal0 [0x002CA94B+174411]
+	Ordinal0 [0x002B2528+75048]
+	Ordinal0 [0x002B35A0+79264]
+	Ordinal0 [0x002B3539+79161]
+	Ordinal0 [0x0044D607+1758727]
+	GetHandleVerifier [0x00656546+1050150]
+	GetHandleVerifier [0x00656291+1049457]
+	GetHandleVerifier [0x006610D7+1094071]
+	GetHandleVerifier [0x00656B46+1051686]
+	Ordinal0 [0x00445B06+1727238]
+	Ordinal0 [0x0044EB7B+1764219]
+	Ordinal0 [0x0044ECE3+1764579]
+	Ordinal0 [0x00464C05+1854469]
+	BaseThreadInitThunk [0x74868744+36]
+	RtlGetAppContainerNamedObjectPath [0x771B58ED+253]
+	RtlGetAppContainerNamedObjectPath [0x771B58BD+205]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at org.base.LibGlobal.getDriver(LibGlobal.java:23)
+	at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)
+	at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="Verifying the Adactin functionalities" name="Verifying Adactin login details with RoomType 4" time="1.464571">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00539563+2725219]&#10;&#9;Ordinal0 [0x00438551+1672529]&#10;&#9;Ordinal0 [0x00320359+525145]&#10;&#9;Ordinal0 [0x002B0B77+68471]&#10;&#9;Ordinal0 [0x002AD32C+54060]&#10;&#9;Ordinal0 [0x002CCC37+183351]&#10;&#9;Ordinal0 [0x002CCA3D+182845]&#10;&#9;Ordinal0 [0x002CA94B+174411]&#10;&#9;Ordinal0 [0x002B2528+75048]&#10;&#9;Ordinal0 [0x002B35A0+79264]&#10;&#9;Ordinal0 [0x002B3539+79161]&#10;&#9;Ordinal0 [0x0044D607+1758727]&#10;&#9;GetHandleVerifier [0x00656546+1050150]&#10;&#9;GetHandleVerifier [0x00656291+1049457]&#10;&#9;GetHandleVerifier [0x006610D7+1094071]&#10;&#9;GetHandleVerifier [0x00656B46+1051686]&#10;&#9;Ordinal0 [0x00445B06+1727238]&#10;&#9;Ordinal0 [0x0044EB7B+1764219]&#10;&#9;Ordinal0 [0x0044ECE3+1764579]&#10;&#9;Ordinal0 [0x00464C05+1854469]&#10;&#9;BaseThreadInitThunk [0x74868744+36]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58ED+253]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x771B58BD+205]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at org.base.LibGlobal.getDriver(LibGlobal.java:23)&#13;&#10;&#9;at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)&#13;&#10;&#9;at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)&#13;&#10;"><![CDATA[Given User is on the Adactin page with RoomType.............................failed
+When User login using with RoomType"jayasundar13" and "Mugunth13@"..........skipped
+And User should search using with RoomType"Melbourne" , "Hotel Sunshine" , "Super Deluxe" ,	"1" , "24/08/2020" , "25/08/2020" , "1" and "1".skipped
+And User should select hotel with RoomType..................................skipped
+And User should book hotel using with RoomType"Mugunthan" , "Balachandran" , "chennai" ,"1234567891234567" , "VISA" , "April" , "2020" and "2222".skipped
+And User should print the id with RoomType"value"...........................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2S9TGE5', ip: '192.168.37.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00539563+2725219]
+	Ordinal0 [0x00438551+1672529]
+	Ordinal0 [0x00320359+525145]
+	Ordinal0 [0x002B0B77+68471]
+	Ordinal0 [0x002AD32C+54060]
+	Ordinal0 [0x002CCC37+183351]
+	Ordinal0 [0x002CCA3D+182845]
+	Ordinal0 [0x002CA94B+174411]
+	Ordinal0 [0x002B2528+75048]
+	Ordinal0 [0x002B35A0+79264]
+	Ordinal0 [0x002B3539+79161]
+	Ordinal0 [0x0044D607+1758727]
+	GetHandleVerifier [0x00656546+1050150]
+	GetHandleVerifier [0x00656291+1049457]
+	GetHandleVerifier [0x006610D7+1094071]
+	GetHandleVerifier [0x00656B46+1051686]
+	Ordinal0 [0x00445B06+1727238]
+	Ordinal0 [0x0044EB7B+1764219]
+	Ordinal0 [0x0044ECE3+1764579]
+	Ordinal0 [0x00464C05+1854469]
+	BaseThreadInitThunk [0x74868744+36]
+	RtlGetAppContainerNamedObjectPath [0x771B58ED+253]
+	RtlGetAppContainerNamedObjectPath [0x771B58BD+205]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at org.base.LibGlobal.getDriver(LibGlobal.java:23)
+	at com.stepdefinition.D.user_is_on_the_Adactin_page_with_RoomType(D.java:27)
+	at ✽.User is on the Adactin page with RoomType(src/test/resources/Features/D.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
